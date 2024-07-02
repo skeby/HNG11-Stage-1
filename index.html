@@ -3,7 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HNGi11 Stage 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="content-container">
+        <img
+          src="slackProfilePicture.png"
+          data-testid="slackProfilePicture"
+          alt=""
+        />
+        <h1>Tech Goals for the next 2 years</h1>
+        <ol>
+          <li>
+            My major goal is to build a comprehensive personal project which
+            will show my skills and serve as my professional portfolio.
+          </li>
+          <li>
+            I want to master ReactJS by rising to the level of
+            Junior/Intermediate Frontend Engineer.
+          </li>
+          <li>
+            I plan on broadening my tech skills by delving into integration of
+            embedded systems with Artificial Intelligence. I intead to learn key
+            programming languages like C/C++ and Python.
+          </li>
+        </ol>
+        <div class="task-requirement-container"></div>
+        <h1>Task Requirements</h1>
+        <div class="task-requirement-container">
+          <label>Slack Display Name</label>
+          <p data-testid="slackDisplayName">skeby</p>
+        </div>
+        <div class="task-requirement-container">
+          <label>Current UTC Time</label>
+          <p class="" data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+        </div>
+        <div class="task-requirement-container">
+          <label>Current Day</label>
+          <p data-testid="currentDay" id="currentDay"></p>
+        </div>
+        <div class="task-requirement-container">
+          <label>Slack Email </label>
+          <p data-testid="slackEmail">akinsanyaadeyinka4166@gmail.com</p>
+        </div>
+        <h1>Links</h1>
+        <a target="_blank" href="http://hng.tech/learn" data-testid="hngLink"
+          >http://hng.tech/learn</a
+        >
+        <a target="_blank" href="http://keyword.dog/" data-testid="keywordLink"
+          >http://keyword.dog/</a
+        >
+        <a
+          target="_blank"
+          href="http://scrapeanyweb.site/"
+          data-testid="scrapeanywebLink"
+          >http://scrapeanyweb.site/</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
